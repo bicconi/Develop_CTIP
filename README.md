@@ -1,10 +1,10 @@
 # Develop_CTIP
 > 김상재 (s5kywa1k3r, hestarium@hotmail.com)
-<br>
+
 > 김동언 (biccon, )
-<br>
+
 > 전도현 (IMRaccoon, )
-<br>
+
 > 박우진 (wjp103, )
 
 ## 개요
