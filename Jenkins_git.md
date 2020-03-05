@@ -86,8 +86,9 @@ Git <-> Jenkins 연동을 위한 플러그인 설치 및 설정 문서입니다.
     B. Settings -> Webhooks 접근
     C. 우측 상단의 Add webhook을 클릭
     D. Payload URL 입력
-        ex) https://{JENKINS_URL}/github-webhook/ (반드시 맨 뒤에 / 입력!)
+        ex) http://{JENKINS_URL}/github-webhook/ (반드시 맨 뒤에 / 입력!)
         - 설마 JENKINS_URL에 localhost:8080 적는 사람이 있다고 생각도 안하겠음.
+        - SSL 인증서 없으므로 꼭 http로 해야함.
     E. Secret을 설정할 필요는 없음
     F. 어느 Event가 발생할 경우 Webhook을 보내는지 정하는 것인데 이 문서에서는 push 할 때만 알림을 받을 예정이므로 Just the push event에 체크
 
